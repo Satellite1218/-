@@ -1,0 +1,18 @@
+create table TBL_PEOPLE(
+people_id char(4) not null,
+people_name varchar2(20),
+people_jumin char(13),
+people_tel char(13),
+people_addr varchar2(30),
+primary key(
+);
+
+insert into TBL_PEOPLE values("C001", "김고객", "6201011123456", "010-0000-1111", "서울시 종로구");
+insert into TBL_PEOPLE values("C002", "이고객", "6307192878828", "010-0000-2222", "서울시 송파구");
+insert into TBL_PEOPLE values("C003", "박고객", "7201012223457", "010-0000-3333", "서울시 광진구");
+insert into TBL_PEOPLE values("C004", "정고객", "8200911223455", "010-0000-4444", "서울시 종로구");
+insert into TBL_PEOPLE values("C005", "최고객", "9201011123454", "010-0000-5555", "서울시 송파구");
+insert into TBL_PEOPLE values("C006", "강고객", "6201011123453", "010-0000-1111", "서울시 관진구");
+insert into TBL_PEOPLE values("C007", "백고객", "7201011123452", "010-0000-1111", "서울시 종로구");
+insert into TBL_PEOPLE values("C008", "조고객", "8201011123451", "010-0000-1111", "서울시 송파구");
+insert into TBL_PEOPLE values("C009", "서고객", "9201011123450", "010-0000-1111", "서울시 관진구");
